@@ -8,11 +8,6 @@
     display: flex;
 }
 
-.placeHolderIcon {
-    width: 50px;
-    height: 50px;
-}
-
 .textholder {
     text-align: center;
     display: flex;
@@ -22,11 +17,20 @@
     margin-right: auto;
 }
 
+.iconoir-cube::before {
+    margin-top: 3px;
+    margin-bottom: -7px;
+}
+
 header {
     background-color: gray;
+    font-size: 50px;
 }
 
 h1 {
     font-size: 100px;
-    background-color: rgba(135, 135, 135, 40%);
+    background-image: linear-gradient(45deg, #ebb058, #d31b4f);
+    background-size: 100%;
+    background-clip: text;
+    color: transparent;
 }
