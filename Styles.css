@@ -1,7 +1,7 @@
 .majorDisplay {
     background-image: url(Images/WallpaperBanner.png);
     color: white;
-    font-family: 'Honk', system-ui;
+    font-family: 'Orbitron', sans-serif;
     text-align: center;
     width: auto;
     height: 500px;
@@ -20,7 +20,17 @@
 
 .testSection {
     height: 400px;
-    background-color: bisque;
+    background-image: linear-gradient(45deg, #69b4e6, #e2e62a);
+}
+
+.aboutMeText {
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 16px;
+}
+
+.stail {
+    width: 75px;
+    height: 75px;
 }
 
 .iconoir-cube::before {
@@ -31,6 +41,14 @@
 header {
     background-color: gray;
     font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Honk', system-ui;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: -4px;
 }
 
 h1 {
