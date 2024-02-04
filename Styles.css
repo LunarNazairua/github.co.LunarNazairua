@@ -28,9 +28,34 @@
     font-size: 16px;
 }
 
-.stail {
-    width: 75px;
-    height: 75px;
+.container {
+    display: flex;
+}
+
+.sub-container {
+    flex: 50%;
+}
+
+.skillHeader {
+    color: rgb(255, 0, 0);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 75px;
+    display: flex;
+    height: 300px;
+    background-image: url(Images/sakuraBackground.jpg);
+}
+
+.sectionHeadText {
+    text-align: center;
+    font-family: 'Honk', system-ui;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: -4px;
+}
+
+.displayHeading {
+    font-size: 25px;
+    font-family: 'Sixtyfour', sans-serif
 }
 
 .iconoir-cube::before {
@@ -41,14 +66,6 @@
 header {
     background-color: gray;
     font-size: 50px;
-}
-
-h2 {
-    text-align: center;
-    font-family: 'Honk', system-ui;
-    font-size: 50px;
-    margin-top: 0px;
-    margin-bottom: -4px;
 }
 
 h1 {
