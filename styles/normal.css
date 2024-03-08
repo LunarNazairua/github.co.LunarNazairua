@@ -1,0 +1,36 @@
+nav {
+    display: flex;
+    color: #5e81ac;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.nav {
+    display: flex;
+    font-size: 35px;
+    background-color: #81a1c1;
+    padding-top: 11px;
+}
+
+.nav-title {
+    margin-top: -2px;
+}
+
+.icon-favi {
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+}
+
+.flexcont {
+    display: flex;
+}
+
+.LinkNav {
+    color: #5e81ac;
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 2px;
+    margin-right: 2px;
+}

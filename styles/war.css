@@ -1,0 +1,26 @@
+#mainContent {
+    background-color: #3b4252;
+    padding-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+}
+
+.buttons {
+    background-color: #434c5e;
+    display: flex;
+    max-width: fit-content;
+    padding: 10px;
+}

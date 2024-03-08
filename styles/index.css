@@ -11,7 +11,7 @@ h2 {
 .heading {
     height: 500px;
     margin-top: -8px;
-    background-image: url('Images/Backgrounds/codeBackground.png');
+    background-image: url('/Images/Backgrounds/codeBackground.png');
     display: flex;
 }
 
